@@ -140,7 +140,7 @@ function google_it(type)
     }                            
     url = 'https://www.shodan.io/search?query=';
 
-    url += ssl + ':' + site;
+    url += ssl + site;
 
 switch(type)
 {
@@ -298,9 +298,9 @@ switch(type)
   border-radius: 10px;
   font-size: 19px;">
     
-    <option value="Ssl.cert.subject.CN">Ssl.cert.subject.CN:</option>
-    <option value="ssl">ssl:</option>
-    <option value="org">org:</option>
+    <option value="Ssl.cert.subject.CN :">Ssl.cert.subject.CN:</option>
+    <option value="ssl :">ssl:</option>
+    <option value="org :">org:</option>
     <option value=" ">None</option>
 	  
   </select>
